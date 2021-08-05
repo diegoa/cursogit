@@ -15,7 +15,7 @@
 		<title></title>
 	</head>
 	<body>
-		<h1>Control de cuotas</h1>
+		<h1>Control de cuotas TierraPropia</h1>
 		<table>
 			<tr>
 				<td>Mes</td>
