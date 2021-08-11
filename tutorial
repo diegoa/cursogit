@@ -18,3 +18,4 @@ a)Si un archivo es modificado primero se debe volver a realizar un "git add nomb
 CURSO PART 2
 1-Agregar todos los archivos de una vez a GIT comnado: "git add .""
 2-Si uno o varios archivos se han modificado se debe volver a iniciar el seguimiento y primeramente se debe realizar un "git add" para agregar al area de ensayo y luego el "git commit -m 'version_proyecto2' " para realizar el seguimiento. Para evitar este proceso se utiliza el comando git commit -am "nombre_del_backup" 
+Editado desde Github
