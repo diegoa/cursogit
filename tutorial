@@ -1,0 +1,20 @@
+Tutorial GIT
+CURSO PART 1
+1-Para iniciar con el proyecto pulsar click derecho en el dentro del directorio (carpeta raiz) y buscar la opcion "Git Bash Here". esto abre la ventana de comando de Git
+2-Para empezar a utilizar Git utiliza el comando "git init" 
+Enlace para ver todos los comandos de Git https://git-scm.com/docs/git#_git_commands
+3-Para visualizar los archivos y carpetas que estan el proyecto: "git status -s"
+	A) Los archivos que estan en el directorio pero que Git no esta realizando ningun seguimiento se visualiza con dos signo de interrogacion en rojo "??" 
+	B) Los archivos con una letra A verde "Area de ensayo"
+	C) Para iniciar el seguimiento: git commit -m "nombre_del_backup"
+	Al momento de realizar un commit a un archivo o directorio y se vuelve a realizar un status el archivo no se visualizara.  
+4-Para realizar el seguimiento de un solo archivo (no asi del proyecto) "git add nombre_archivo.html ".
+5-Si un archivo es modificado al ver su estado "git status -s" aparece con la letra roja M (mayusculas).
+a)Si un archivo es modificado primero se debe volver a realizar un "git add nombre_archivo.html" y luego realizar el commit
+
+6-Para ver todos los commit realizados comando: "git log --oneline"
+7-Para volver a una version antigua del proyecto "git reset --hard codigo_de_seguimiento " (para obtener el codigo ver el punto 6) 
+
+CURSO PART 2
+1-Agregar todos los archivos de una vez a GIT comnado: "git add .""
+2-Si uno o varios archivos se han modificado se debe volver a iniciar el seguimiento y primeramente se debe realizar un "git add" para agregar al area de ensayo y luego el "git commit -m 'version_proyecto2' " para realizar el seguimiento. Para evitar este proceso se utiliza el comando git commit -am "nombre_del_backup" 
