@@ -8,7 +8,7 @@ Enlace para ver todos los comandos de Git https://git-scm.com/docs/git#_git_comm
 	B) Los archivos con una letra A verde "Area de ensayo"
 	C) Para iniciar el seguimiento: git commit -m "nombre_del_backup"
 	Al momento de realizar un commit a un archivo o directorio y se vuelve a realizar un status el archivo no se visualizara.  
-4-Para realizar el seguimiento de un solo archivo (no asi del proyecto) "git add nombre_archivo.html ".
+4-Seguimiento a un solo archivo (no asi del proyecto) "git add nombre_archivo.html ".
 5-Si un archivo es modificado al ver su estado "git status -s" aparece con la letra roja M (mayusculas).
 a)Si un archivo es modificado primero se debe volver a realizar un "git add nombre_archivo.html" y luego realizar el commit
 
@@ -16,6 +16,15 @@ a)Si un archivo es modificado primero se debe volver a realizar un "git add nomb
 7-Para volver a una version antigua del proyecto "git reset --hard codigo_de_seguimiento " (para obtener el codigo ver el punto 6) 
 
 CURSO PART 2
-1-Agregar todos los archivos de una vez a GIT comnado: "git add .""
-2-Si uno o varios archivos se han modificado se debe volver a iniciar el seguimiento y primeramente se debe realizar un "git add" para agregar al area de ensayo y luego el "git commit -m 'version_proyecto2' " para realizar el seguimiento. Para evitar este proceso se utiliza el comando git commit -am "nombre_del_backup" 
-Editado desde Github
+1-Seguimiento a todos los archivos de una vez a GIT comnado: "git add .""
+2-Si uno o varios archivos se han modificado se debe volver a iniciar el seguimiento y primeramente se debe realizar un "git add" para agregar al area de ensayo y luego el "git commit -m 'version_proyecto2' " para realizar el seguimiento. Para evitar este proceso se utiliza el comando git commit -am "nombre_del_backup".
+
+crear tags
+Para crear un tag utilizar el comando: git tag nombre-del-tag -m "descripcion_del_tag o titulo" 
+Subir tags a GitHub: git push --tags
+
+Clonar (bajar el proyecto)
+git clone url_del_proyecto Ej: git clone https://github.com/diegoa/cursogit.git esto descargara el proyecto a tu Pc
+
+Pull: para obtener los archivos modificados directamente en GitHub y bajarlos al Pc
+
